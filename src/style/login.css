@@ -1,0 +1,80 @@
+#divLoginShow{
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    padding: 20px 0px;
+    background-color: var(--color-2);
+
+    animation: showModal 1000ms 1 forwards;
+    transform: translateY(-120vw);
+    opacity: 0%;
+
+    
+}
+@keyframes showModal {
+    to{
+        transform: translateY(9vh);
+        opacity: 100%;
+    
+    }
+}
+#divLoginHide{
+    position: fixed;
+    z-index: 2;
+
+    width: 100%;
+    display: none;
+    justify-content: center;
+
+    padding: 20px 0px;
+    background-color: var(--color-2);
+
+    animation: hideModal 2000ms 1 forwards;
+    transform: translateY(9vh);
+    opacity: 100%;
+}
+@keyframes hideModal {
+    to{
+        transform: translateY(-120vw);
+        opacity: 0%;
+    
+    }
+}
+.login{
+    width: 300px;
+    height: 320px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 20px;
+    background-color: var(--color-4);
+
+    border-radius: 5px;
+}
+.login h2{
+    color: var(--color-1);
+
+    font-size: var(--title-1-size);
+    font-weight: var(--title-1-weight);
+    line-height: var(--title-1-height);
+
+}
+.login p {
+    
+    color: var(--color-2);
+    
+}
+.login .clickAqui {
+    background-color: var(--color-4);
+    color: var(--color-1);
+
+    border: none;
+
+    cursor: pointer;
+}

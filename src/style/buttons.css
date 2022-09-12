@@ -1,0 +1,52 @@
+.buttonsGeneral{
+    height: 100%;
+    width: 80px;
+    
+    color: var(--color-1);
+    background-color: var(--color-2);
+    border: none;
+
+    font-size: var(--text-2-size);
+    font-weight: var(--text-1-weight);
+
+    cursor: pointer;
+}
+.buttonsGeneral:hover{
+    color: var(--color-2);
+    background-color: var(--color-1);
+}
+
+.buttonsGeneralBlack{
+    height: 40px;
+    width: 260px;
+    
+    color: var(--color-1);
+    background-color: var(--color-2);
+    
+    border: var(--color-3);
+    border-radius: 5px;
+
+    font-size: var(--text-2-size);
+    font-weight: var(--text-1-weight);
+
+    cursor: pointer;
+}
+.buttonsGeneralBlack:hover{
+    color: var(--color-4);
+    background-color: var(--color-1);
+}
+
+.buttonsMenu{
+    background-color: var(--color-1);
+    color: var(--color-3);
+
+    border-radius: 20px;
+    border: none;
+
+    width: 150px;
+    height: 40px;
+    font-size: var(--text-2-size);
+    font-weight: var(--text-1-weight);
+
+    cursor: pointer;
+}

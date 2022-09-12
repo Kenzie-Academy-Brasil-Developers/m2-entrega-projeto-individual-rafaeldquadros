@@ -1,0 +1,11 @@
+#container {
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#container .empresasMenu {
+    font-size: var(--title-2-size);
+    font-weight: var(--title-1-weight);
+
+    padding: 10px;
+    text-align: center;
+}
