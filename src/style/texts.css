@@ -1,0 +1,21 @@
+:root{
+    --title-1-size: 28px;
+    --title-1-weight:700;
+    --title-1-height: 40px;
+
+    --title-2-size: 20px;
+    --title-2-weight:600;
+    --title-2-height: 24px;
+
+    --text-1-size: 16px;
+    --text-1-weight:700;
+    --text-1-height: 28px;
+
+    --text-2-size: 14px;
+    --text-2-weight:500;
+    --text-2-height: 19px;
+
+    --text-3-size: 12px;
+    --text-3-weight:400;
+    --text-3-height: 16px;
+}

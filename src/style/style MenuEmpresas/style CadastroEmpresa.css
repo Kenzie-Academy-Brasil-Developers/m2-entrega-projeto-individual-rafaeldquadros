@@ -1,0 +1,28 @@
+#container h1{
+    text-align: center;
+}
+form{
+    width: 95%;
+    height: 60%;
+    max-width: 300px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background-color: var(--color-4);
+
+    border-radius: 5px;
+    border: solid 2px var(--color-3);
+}
+
+form select{
+    width: 90%;
+    height: 30px;
+    border: none;
+    font-size: var(--text-2-size);
+    border-radius: 5px;
+
+    outline-color: var(--color-1);
+}

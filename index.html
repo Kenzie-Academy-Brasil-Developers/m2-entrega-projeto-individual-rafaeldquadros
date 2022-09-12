@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/style/reset.css">
+    <link rel="stylesheet" href="./src/style/buttons.css">
+    <link rel="stylesheet" href="./src/style/colors.css">
+    <link rel="stylesheet" href="./src/style/texts.css">
+    <link rel="stylesheet" href="./src/style/inputs.css">
+    <link rel="stylesheet" href="./src/style/headers.css">
+    <link rel="stylesheet" href="./src/style/login.css">
+    <link rel="stylesheet" href="./src/style/cadastro.css">
+    <link rel="stylesheet" href="./src/style/home.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <title>R.G Empresas</title>
+</head>
+<body>
+    <header>
+        <section class="cabecalho">
+            <img src="./src/assets/rgLogo.png" alt="R.G Logo.">
+            <nav>
+                <button id="btnCadastro" class="buttonsGeneral">Cadastrar</button>
+                <button id="btnLogin" class="buttonsGeneral">Login</button>
+            </nav>
+        </section>
+    </header>
+    <main>
+        <div id="divLoginHide">
+            <section class="login">
+                <h2>Login</h2>
+                <input id="inputEmailL" class="inputs" type="email" placeholder="E-mail" required>
+                <input id="inputSenhaL" class="inputs" type="password" placeholder="Senha" required>
+                <button id="btnLoginL" class="buttonsGeneralBlack">Login</button>
+                <p>Ainda não tem uma conta? </p>
+                <p>Click em cadastrar no topo do menu.</p>
+               
+            </section>
+        </div>
+        <div id="divCadastroHide">
+            <form class="formCadastro">
+                <h2>Cadastro</h2>
+    
+                <input id="inputNome" class="inputs" type="text" placeholder="Seu nome" id="inputNameC">
+                <input id="inputEmail" class="inputs" type="email" placeholder="Seu e-mail" id="inputEmailC">
+                <input id="inputSenha" class="inputs" type="text" placeholder="Sua senha" id="inputSenhaC">
+                <input id="inputProf" class="inputs" type="text" placeholder="Seu level profissional" id="inputWorkC">
+                <button class="buttonsGeneralBlack" id="btnRegister">Registrar</button>
+                <p>Já possui cadastro? </p>
+                <p>Click em login no topo do menu!</p>
+            </form>
+        </div>
+        <section class="sobre">
+            <img src="./src/assets/rgLogo.png" alt="R.G Logo">
+            <h1>R.G Empresas</h1>
+            <p>
+                Gerenciar uma empresa exige que o empreendedor tenha ou desenvolva diversas competências. 
+                Contar com a tecnologia é fundamental.
+                É nesse cenário que a R.G Empresas se torna sua grande aliada.
+                Nossos recursos automatizam algumas tarefas manuais, otimizando o tempo e a melhora da produtividade.
+            </p>
+        </section>
+        <section id="empresas">
+            <nav>
+                <button id="btnTodos" class="buttonsGeneralBlack">Todos</button>
+                <button id="btnAutomotivo" class="buttonsGeneralBlack">Automotivo</button>
+                <button id="btnTi" class="buttonsGeneralBlack">TI</button>
+                <button id="btnAlimenticio" class="buttonsGeneralBlack">Alimentício</button>
+            </nav>
+            <ul id="ulEmpresas" class="listaEmpresas">
+
+            </ul>
+        </section>
+    </main>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script type="module" src="./src/script/index.js"></script>
+</body>
+</html>
