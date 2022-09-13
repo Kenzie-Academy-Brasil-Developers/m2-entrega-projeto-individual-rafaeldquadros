@@ -35,7 +35,7 @@ main{
 
 /*LISTA DE EMPRESAS*/
 .listaEmpresas{
-   max-width: 100%;
+   max-width: 80%;
    display: flex;
    flex-direction: row;
    align-items: center;
@@ -45,8 +45,15 @@ main{
   
    padding: 20px 0px;
 
-   flex-wrap: unset;
    overflow-x: scroll;
+}
+.listaEmpresas::-webkit-scrollbar{
+   background-color: var(--color-2);
+   border-radius: 20px;
+}
+.listaEmpresas::-webkit-scrollbar-thumb{
+   background-color: var(--color-1);
+   border-radius: 20px;
 }
 .listaEmpresas li{
    position: relative;
@@ -143,7 +150,7 @@ main{
    text-align: center;
 }
 .sobre img{
-   animation:spin 4s linear infinite;
+   animation:spin 20s linear infinite;
    
    border-radius: 50%;
 }

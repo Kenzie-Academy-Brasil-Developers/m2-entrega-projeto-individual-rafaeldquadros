@@ -1,0 +1,18 @@
+.formCriarDepartamento{
+    max-height: 200px;
+}
+.formCriarDepartamento .btnCriarDep{
+    height: 40px;
+    width: 230px;
+    color: var(--color-1);
+    background-color: var(--color-2);
+    border: solid 1px var(--color-1);
+    border-radius: 5px;
+    font-size: var(--text-2-size);
+    font-weight: var(--text-1-weight);
+    cursor: pointer;
+}
+.formCriarDepartamento .btnCriarDep:hover{
+    color: var(--color-2);
+    background-color: var(--color-1);
+}

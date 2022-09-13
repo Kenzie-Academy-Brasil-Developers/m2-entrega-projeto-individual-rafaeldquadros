@@ -20,7 +20,7 @@ main .backgroundImg img{
 
     border-radius: 50%;
 
-    animation:spin 4s linear infinite;
+    animation:spin 20s linear infinite;
     
 }
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
@@ -207,7 +207,7 @@ main .backgroundImg img{
     top: 15%;
     left: 10%;
 
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
 
@@ -227,6 +227,8 @@ main .backgroundImg img{
     color: var(--color-1);
     font-size: var(--text-1-size);
 
+    cursor: pointer;
+
 
 }
 #container h1{
@@ -235,4 +237,31 @@ main .backgroundImg img{
 
     font-size: var(--title-1-size);
     font-weight: var(--title-1-weight);
+}
+
+
+/*BTN SAIR*/
+.user{
+    display: flex;
+    justify-content: space-evenly;
+    height: 70px;
+    align-items: center;
+}
+.user h1{
+    font-size: var(--title-1-size);
+    font-weight: var(--title-1-weight);
+}
+.sair{
+    background-color: var(--color-2);
+    color: var(--color-1);
+    border: solid 1px var(--color-1);
+
+    width: 50px;
+    height: 30px;
+    
+    border-radius: 10px;
+}
+.sair:hover{
+    background-color: var(--color-1);
+    color: var(--color-2);
 }

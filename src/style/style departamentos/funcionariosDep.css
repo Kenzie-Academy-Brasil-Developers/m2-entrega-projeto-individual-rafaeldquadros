@@ -1,0 +1,42 @@
+.ulFuncionariosDep{
+    max-height: 330px;
+    width: 95%;
+
+    overflow: hidden;
+    overflow-y: scroll;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    position: relative;
+    top: 10%;
+}
+.ulFuncionariosDep .liUsuarioDep{
+    width: 96%;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: solid 1px;
+    padding: 3px;
+
+    box-shadow:5px 5px 5px var(--color-1);
+}
+.ulFuncionariosDep .liUsuarioDep button{
+    height: 30px;
+    border-radius: 5px;
+    border: solid 1px;
+    color: var(--color-1);
+    background: var(--color-2);
+
+    cursor: pointer;
+}
+.ulFuncionariosDep .liUsuarioDep button:hover{
+    color: var(--color-2);
+    background: var(--color-1);
+}
+
+.ulFuncionariosDep .liUsuarioDep .btnDemitir{
+    background-color: rgb(78, 31, 31);
+}
