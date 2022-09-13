@@ -1,0 +1,13 @@
+.sectionDadosUser{
+    width: 200px;
+    height: 200px;
+    font-size: var(--text-1-size);
+    font-weight: var(--text-1-weight);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: solid 1px var(--color-1);
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 5px 5px 5px var(--color-1);
+}
