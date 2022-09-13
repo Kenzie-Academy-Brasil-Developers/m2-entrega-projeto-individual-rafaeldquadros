@@ -1,0 +1,21 @@
+.formEditarInfo{
+    max-height: 270px;
+}
+.formEditarInfo label{
+    text-align: center;
+}
+.formEditarInfo button{
+    height: 40px;
+    width: 230px;
+    color: var(--color-1);
+    background-color: var(--color-2);
+    border: solid 1px var(--color-1);
+    border-radius: 5px;
+    font-size: var(--text-2-size);
+    font-weight: var(--text-1-weight);
+    cursor: pointer;
+}
+.formEditarInfo button:hover{
+    background-color: var(--color-1);
+    color: var(--color-2);
+}

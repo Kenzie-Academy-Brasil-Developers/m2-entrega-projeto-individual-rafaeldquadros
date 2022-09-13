@@ -1,0 +1,40 @@
+.ulUserSemDepart{
+    max-height: 380px;
+    width: 95%;
+
+    overflow: hidden;
+    overflow-y: scroll;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    position: relative;
+    top: 8%;
+}
+.ulUserSemDepart li {
+    width: 96%;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: solid 1px;
+    padding: 3px;
+
+    box-shadow:5px 5px 5px var(--color-1);
+}
+.ulUserSemDepart li button{
+        height: 40px;
+        width: 230px;
+        color: var(--color-1);
+        background-color: var(--color-2);
+        border: solid 1px var(--color-1);
+        border-radius: 5px;
+        font-size: var(--text-2-size);
+        font-weight: var(--text-1-weight);
+        cursor: pointer;
+}
+.ulUserSemDepart li button:hover{
+    background-color: var(--color-1);
+    color: var(--color-2);
+}

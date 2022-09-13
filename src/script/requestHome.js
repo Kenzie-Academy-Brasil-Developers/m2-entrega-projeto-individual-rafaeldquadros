@@ -45,7 +45,13 @@ class RequestHome{
                 localStorage.setItem("KenzieToken", res.token)
                 localStorage.setItem("UserId", res.uuid)
                 localStorage.setItem("Admin", res.is_admin)
-                window.location.assign("/src/pages/dashboardAdmin.html")
+                if(res.is_admin == true){
+                    toast.toastErro("Loguin Admin realizado com sucesso")
+                    window.location.assign("/src/pages/dashboardAdmin.html")
+                }else{
+                    toast.toastErro("Loguin user realizado com sucesso")
+                    window.location.assign("/src/pages/dashboardUsuario.html")
+                }
             }
         })
         .catch((res) => console.log(res))

@@ -5,3 +5,7 @@ import render from "./dasboardRender.js"
 menu.showMenu ()
 
 render.btnRender()
+
+render.verificacaoAdmin()
+
+render.sair()

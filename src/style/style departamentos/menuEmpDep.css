@@ -1,0 +1,74 @@
+
+.ulEmpresasDep{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    max-height: 330px;
+
+    overflow: hidden;
+    overflow-y: scroll;
+    
+    position: relative;
+    top: 10%;
+}
+.ulEmpresasDep li{
+    display: flex;
+    min-width: 200px;
+}
+.ulEmpresasDep li h2{
+    border: solid 1px;
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+    min-width: 160px;
+
+}
+.ulEmpresasDep li button{
+    background: var(--color-1);
+    border: none;
+    border-radius: 0 5px 5px 0;
+    font-size: 20px;
+
+    cursor: pointer;
+}
+
+/*BTN CONTRATAR*/
+
+.btnContratar{
+    height: 40px;
+    width: 230px;
+    color: var(--color-1);
+    background-color: var(--color-2);
+    border: solid 1px var(--color-1);
+    border-radius: 5px;
+    font-size: var(--text-2-size);
+    font-weight: var(--text-1-weight);
+    cursor: pointer;
+    position: relative;
+    top: 5%;
+}
+.btnContratar:hover{
+    background-color: var(--color-1);
+    color: var(--color-2);
+}
+
+
+
+/*BTN CRIAR DEPARTAMENTO*/
+.btnCriarDepartamento{
+    height: 40px;
+    width: 230px;
+    color: var(--color-1);
+    background-color: var(--color-2);
+    border: solid 1px var(--color-1);
+    border-radius: 5px;
+    font-size: var(--text-2-size);
+    font-weight: var(--text-1-weight);
+    cursor: pointer;
+}
+.btnCriarDepartamento:hover{
+    color: var(--color-2);
+    background-color: var(--color-1);
+}
+
+
