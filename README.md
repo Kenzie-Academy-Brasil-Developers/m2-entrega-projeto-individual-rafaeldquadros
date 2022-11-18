@@ -38,11 +38,11 @@
 ## Se tudo ocorreu bem até aqui, basta iniciar a API com o seguinte comando:
 
 ```
-    npm run dev:server
+    npm run dev
 
     ou
 
-    yarn dev:server
+    yarn dev
 ```
 
 # Iniciando o site
