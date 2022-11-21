@@ -58,6 +58,14 @@
 
 ## Executando o projeto:
 
+### Login e senha da dashboard admin
+
+```
+    email: admin@mail.com
+    senha: admin
+
+```
+
 <br></br>
 
 ### Caso ainda não tenha a extenção live server do VSCode faça o download e basta clicar em Go Live para iniciar a aplicação. Caso prefira utilizar a pages do github basta iniciar a api e clicar neste link https://kenzie-academy-brasil-developers.github.io/m2-entrega-projeto-individual-rafaeldquadros/
